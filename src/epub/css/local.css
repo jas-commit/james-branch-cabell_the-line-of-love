@@ -3,77 +3,76 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Centered dedications */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
 	section[epub|type~="dedication"]{
-		text-align: center;
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
 	}
 
 	section[epub|type~="dedication"] > *{
-		display: inline-block;
-		margin: auto;
-		margin-top: 3em;
-		max-width: 80%;
+		margin: 0;
 	}
-
-	@supports(display: flex){
-		section[epub|type~="dedication"]{
-			align-items: center;
-			box-sizing: border-box;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			min-height: calc(98vh - 3em);
-			padding-top: 3em;
-		}
-
-		section[epub|type~="dedication"] > *{
-			margin: 0;
-		}
-	}
+}
 /* End centered dedications */
 
 /* All epigraphs */
-	[epub|type~="epigraph"]{
-		font-style: italic;
-		hyphens: none;
-		-epub-hyphens: none;
-	}
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
 /* End all epigraphs */
 
 /* Verse and Song */
-	[epub|type~="z3998:song"] p,
-	[epub|type~="z3998:poem"] p,
-	[epub|type~="z3998:verse"] p{
-		text-align: initial;
-		text-indent: 0;
-	}
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
 
-	[epub|type~="z3998:song"] p > span,
-	[epub|type~="z3998:poem"] p > span,
-	[epub|type~="z3998:verse"] p > span{
-		display: block;
-		padding-left: 1em;
-		text-indent: -1em;
-	}
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
 
-	[epub|type~="z3998:song"] p > span + br,
-	[epub|type~="z3998:poem"] p > span + br,
-	[epub|type~="z3998:verse"] p > span + br{
-		display: none;
-	}
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
 
-	[epub|type~="z3998:song"] p + p{
-		margin-top: 1em;
-	}
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
 /* End verse */
 
 /* Elision */
-	span.elision{
-		margin: .5em;
-		margin-left: 3em;
-	}
-	[epub|type~="epigraph"] span.elision{
-		font-style: normal;
-	}
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
+[epub|type~="epigraph"] span.elision{
+	font-style: normal;
+}
 /* End Elision */
-
-

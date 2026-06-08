@@ -29,6 +29,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Line of Love</dc:title>
 		<meta property="file-as" refines="#title">Line of Love, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Dizain des Mariages</dc:title>
+		<meta property="file-as" refines="#subtitle">Dizain des Mariages</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Line of Love: Dizain des Mariages</dc:title>
+		<meta property="file-as" refines="#fulltitle">Line of Love: Dizain des Mariages, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCHS</meta>
 		<meta property="term" refines="#subject-1">sh85061165</meta>
@@ -38,22 +45,26 @@
 		<dc:subject id="subject-3">Middle Ages -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCHS</meta>
 		<meta property="term" refines="#subject-3">sh2008107176</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Fantasy</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">7</meta>
+		<dc:description id="description">A comedic generational saga composed of nine short stories about love and marriage in medieval Europe.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is the seventh installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is a short story collection that satirizes love and marriage, combining Cabell's affinity for genealogical works with his signature comedic wit. Originally published in 1905, the 1921 revision fits within the Life of Manuel series and follows the romantic escapades of the character &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen's&lt;/a&gt; descendants.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9488</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/lineoflovedizain0000cabe</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_the-line-of-love</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Branch_Cabell</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039689</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -62,21 +73,24 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="author-of-introduction">H. L. Mencken</dc:contributor>
+		<meta property="file-as" refines="#author-of-introduction">Mencken, H. L.</meta>
+		<meta property="se:name.person.full-name" refines="#author-of-introduction">Henry Louis Mencken</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/H._L._Mencken</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">https://id.loc.gov/authorities/names/n80036702</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Jasmine Horton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Horton, Jasmine</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
