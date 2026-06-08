@@ -47,7 +47,6 @@
 		<meta property="term" refines="#subject-3">sh2008107176</meta>
 		<meta property="se:subject">Comedy</meta>
 		<meta property="se:subject">Fantasy</meta>
-		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
@@ -55,7 +54,7 @@
 		<dc:description id="description">A comedic generational saga composed of nine short stories about love and marriage in medieval Europe.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is the seventh installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is a short story collection that satirizes love and marriage, combining Cabell's affinity for genealogical works with his signature comedic wit. Originally published in 1905, the 1921 revision fits within the Life of Manuel series and follows the romantic escapades of the character &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen's&lt;/a&gt; descendants.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is a short story collection that satirizes love and marriage, combining Cabell’s affinity for genealogical works with his signature comedic wit. Originally published in 1905, the 1921 revision fits within the Life of Manuel series and follows the romantic escapades of the character &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen’s&lt;/a&gt; descendants.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9488</dc:source>
@@ -67,18 +66,20 @@
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Branch_Cabell</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039689</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="author-of-introduction">H. L. Mencken</dc:contributor>
-		<meta property="file-as" refines="#author-of-introduction">Mencken, H. L.</meta>
-		<meta property="se:name.person.full-name" refines="#author-of-introduction">Henry Louis Mencken</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/H._L._Mencken</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">https://id.loc.gov/authorities/names/n80036702</meta>
-		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<dc:contributor id="writer-of-introduction">H. L. Mencken</dc:contributor>
+		<meta property="file-as" refines="#writer-of-introduction">Mencken, H. L.</meta>
+		<meta property="se:name.person.full-name" refines="#writer-of-introduction">Henry Louis Mencken</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-introduction">https://en.wikipedia.org/wiki/H._L._Mencken</meta>
+		<meta property="se:url.authority.nacoaf" refines="#writer-of-introduction">http://id.loc.gov/authorities/names/n80036702</meta>
+		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
