@@ -14,4 +14,10 @@
 			<reason>No punctuation needed.</reason>
 		</ignore>
 	</file>
+	<file path="content.opf">
+		<ignore code="m-064">
+			<line>57</line>
+			<reason>Italics not needed.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
