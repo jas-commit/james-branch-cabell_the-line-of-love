@@ -31,6 +31,28 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"],
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+article > header [epub|type~="epigraph"] + *,
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"],
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -76,3 +98,15 @@ span.elision{
 	font-style: normal;
 }
 /* End Elision */
+
+/* Footer */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+/* End Footer */
+/* Signature */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End Signature */
