@@ -54,7 +54,7 @@
 		<dc:description id="description">A generational saga composed of short stories about love and marriage in medieval Europe.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is the seventh installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is a short story collection that satirizes love and marriage, combining Cabell’s affinity for genealogical works with his signature comedic wit. Originally published in 1905, the 1921 revision fits within the Life of Manuel series and follows the romantic escapades of the character &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen’s&lt;/a&gt; descendants.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Line of Love&lt;/i&gt; is a short story collection that satirizes love and marriage, combining Cabell’s affinity for genealogical works with his signature comedic wit. Originally published in 1905, the 1921 revision fits within the Life of Manuel series and follows the romantic escapades of the character Jurgen’s descendants.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9488</dc:source>
@@ -73,16 +73,16 @@
 		<meta property="file-as" refines="#author-1">Cabell, James Branch</meta>
 		<link href="https://en.wikipedia.org/wiki/James_Branch_Cabell" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80039689.html" refines="#author" rel="schema:sameAs"/>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 	
 		<dc:contributor id="writer-of-introduction">H. L. Mencken</dc:contributor>
 		<meta property="file-as" refines="#writer-of-introduction">Mencken, H. L.</meta>
 		<meta property="schema:alternateName" refines="#writer-of-introduction">Henry Louis Mencken</meta>
-		<link href="https://en.wikipedia.org/wiki/H._L._Mencken" refines="writer-of-introduction" rel="schema:sameAs"/>
-		<link href="https://id.loc.gov/authorities/names/n80036702" refines="writer-of-introduction" rel="schema:sameAs"/>
-		<meta property="role" refines="writer-of-introduction" scheme="marc:relators">win</meta>
+		<link href="https://en.wikipedia.org/wiki/H._L._Mencken" refines="#writer-of-introduction" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80036702.html" refines="#writer-of-introduction" rel="schema:sameAs"/>
+		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
 		
 		<dc:contributor id="artist">Howard Pyle</dc:contributor>
 		<meta property="file-as" refines="#artist">Pyle, Howard</meta>
