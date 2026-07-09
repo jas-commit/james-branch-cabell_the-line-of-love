@@ -6,4 +6,4 @@
 			<reason>No punctuation needed before closing quotes. Part of chapter title.</reason>
 		</ignore>
 	</file>
-	</se-lint-ignore>
+</se-lint-ignore>
