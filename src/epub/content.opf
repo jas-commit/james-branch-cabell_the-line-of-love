@@ -58,9 +58,6 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9488</dc:source>
-		<!--HathiTrust page scans-->
-		<dc:source>https://catalog.hathitrust.org/Record/100543185</dc:source>
-		<!--Internet Archive page scans-->
 		<dc:source>https://archive.org/details/lineoflovedizain0000cabe</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
