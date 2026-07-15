@@ -61,11 +61,9 @@
 		<dc:source>https://archive.org/details/lineoflovedizain0000cabe</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
-		
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/james-branch-cabell_the-line-of-love" refines="#vcs-repository" rel="schema:codeRepository"/>
-		
 		<dc:creator id="author">James Branch Cabell</dc:creator>
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
 		<link href="https://en.wikipedia.org/wiki/James_Branch_Cabell" refines="#author" rel="schema:sameAs"/>
@@ -73,20 +71,17 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
-	
 		<dc:contributor id="writer-of-introduction">H. L. Mencken</dc:contributor>
 		<meta property="file-as" refines="#writer-of-introduction">Mencken, H. L.</meta>
 		<meta property="schema:alternateName" refines="#writer-of-introduction">Henry Louis Mencken</meta>
 		<link href="https://en.wikipedia.org/wiki/H._L._Mencken" refines="#writer-of-introduction" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80036702.html" refines="#writer-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
-		
 		<dc:contributor id="artist">Howard Pyle</dc:contributor>
 		<meta property="file-as" refines="#artist">Pyle, Howard</meta>
 		<link href="https://en.wikipedia.org/wiki/Howard_Pyle" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79072830.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>

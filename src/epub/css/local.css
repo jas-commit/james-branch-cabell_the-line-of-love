@@ -2,11 +2,11 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* All epigraphs */
-		[epub|type~="epigraph"]{
-			font-style: italic;
-			hyphens: none;
-			-epub-hyphens: none;
-		}
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -44,17 +44,18 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* Epigraphs in section headers */
-		section > header [epub|type~="epigraph"]{
-			display: inline-block;
-			margin: auto;
-			max-width: 80%;
-			text-align: initial;
-		}
-		@supports(display: table){
-			section > header [epub|type~="epigraph"]{
-				display: table;
-			}
-		}
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
 /* End epigraphs in section headers */
 
 /* Poem, song, verse */
@@ -92,21 +93,23 @@ p span.i1{
 /* End poem, song, verse */
 
 /* Elision */
-		span.elision{
-			margin: .5em;
-			margin-left: 3em;
-		}
-		[epub|type~="epigraph"] span.elision{
-			font-style: normal;
-		}
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
+[epub|type~="epigraph"] span.elision{
+	font-style: normal;
+}
 /* End elision */
 
 /* Footer */
-		footer{
-			margin-top: 1em;
-			text-align: right;
-		}
-		[epub|type~="z3998:signature"]{
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 /* End footer */
