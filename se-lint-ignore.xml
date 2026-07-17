@@ -6,4 +6,9 @@
 			<reason>No punctuation needed before closing quotes. Part of chapter title.</reason>
 		</ignore>
 	</file>
+	<file path="local.css">
+		<ignore code="c-006">
+			<reason>Dedication should not be centered.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
