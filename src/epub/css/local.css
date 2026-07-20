@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
@@ -85,6 +86,7 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+
 p span.i5{
 	padding-left: 6em;
 	text-indent: -1em;
@@ -114,8 +116,6 @@ footer{
 /* End footer */
 
 /* Language italics */
-@namespace xml "http://www.w3.org/XML/1998/namespace";
-
 blockquote[xml|lang]:not([xml|lang~="enm"]),
 [epub|type~="z3998:song"] p[xml|lang]{
 	font-style: italic;
