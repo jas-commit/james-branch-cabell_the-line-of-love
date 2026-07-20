@@ -113,4 +113,11 @@ footer{
 }
 /* End footer */
 
+/* Language italics */
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
+blockquote[xml|lang]:not([xml|lang~="enm"]),
+[epub|type~="z3998:song"] p[xml|lang]{
+	font-style: italic;
+}
+/* End language italics */
